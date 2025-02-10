@@ -80,7 +80,7 @@ const MonthlyReport = ({ entries }) => {
           value={selectedMonth}
           onChange={(e) => setSelectedMonth(e.target.value)}
           displayEmpty
-        >
+         variant="outlined">
           <MenuItem value="">All Months</MenuItem>
           {months.map((month) => (
             <MenuItem key={month.value} value={month.value}>
