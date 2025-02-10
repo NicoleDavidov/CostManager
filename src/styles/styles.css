@@ -172,7 +172,6 @@ form button {
   min-width: 150px; /* Ensures a minimum width for fields */
 }
 
-
 /* Table Container Styling */
 .tableContainer {
   padding: 15px;
@@ -192,7 +191,9 @@ form button {
 }
 
 /* Buttons inside Editable Table */
-.editButton, .deleteButton, .saveButton {
+.editButton,
+.deleteButton,
+.saveButton {
   padding: 3px 6px;
   font-size: 12px;
   margin: 3px;

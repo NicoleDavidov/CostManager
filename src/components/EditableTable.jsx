@@ -1,6 +1,15 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Table, TableBody, TableCell, TableHead, TableRow, TableFooter, TablePagination, Button } from '@mui/material';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+  TableFooter,
+  TablePagination,
+  Button
+} from '@mui/material';
 
 const EditableTable = ({ data, columns, onDelete, onUpdate }) => {
   const [editId, setEditId] = useState(null);

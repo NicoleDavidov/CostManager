@@ -3,12 +3,30 @@ import AddCostForm from './components/AddCostForm.jsx';
 import ExpensesTable from './components/ExpensesTable.jsx';
 import CategoryPieChart from './components/CategoryPieChart.jsx';
 import MonthlyReport from './components/MonthlyReport.jsx';
-import { Dialog, DialogTitle, DialogContent, Button, Box, AppBar, Toolbar, Typography } from '@mui/material';
+import {
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  Button,
+  Box,
+  AppBar,
+  Toolbar,
+  Typography
+} from '@mui/material';
 import IncomeTable from './components/IncomeTable.jsx';
 import AddIncomeForm from './components/AddIncomeForm.jsx';
 import NetIncomeReport from './components/NetIncomeReport.jsx';
 import { ThemeProvider, useTheme } from './components/ThemeProvider.jsx';
-import { fetchAllCosts, fetchAllIncomes, addNewCost, addNewIncome, deleteCost, deleteIncome, updateCost, updateIncome } from './utils/fetchEntries.js';
+import {
+  fetchAllCosts,
+  fetchAllIncomes,
+  addNewCost,
+  addNewIncome,
+  deleteCost,
+  deleteIncome,
+  updateCost,
+  updateIncome
+} from './utils/fetchEntries.js';
 import FilterControls from './components/FilterControls.jsx';
 import './styles/styles.css';
 

@@ -1,6 +1,15 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Table, TableBody, TableCell, TableHead, TableRow, Select, MenuItem, Typography } from '@mui/material';
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+  Select,
+  MenuItem,
+  Typography
+} from '@mui/material';
 import { months } from '../utils/consts.js';
 
 /**
@@ -80,7 +89,8 @@ const MonthlyReport = ({ entries }) => {
           value={selectedMonth}
           onChange={(e) => setSelectedMonth(e.target.value)}
           displayEmpty
-         variant="outlined">
+          variant="outlined"
+        >
           <MenuItem value="">All Months</MenuItem>
           {months.map((month) => (
             <MenuItem key={month.value} value={month.value}>
